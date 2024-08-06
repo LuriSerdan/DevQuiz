@@ -275,7 +275,6 @@ header span {
 
 .btn-card:hover {
     font-weight: bold;
-    font-size: x-large;
 }
 
 button:hover {
@@ -482,20 +481,36 @@ h2 {
 
 @media (max-width: 700px) {
     header {
-        width: 220px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        gap: 0;
+    }
+
+    ul {
+      gap: 20px;  
     }
 
     .left {
         margin-top: 20px;
+
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
 
     .left h1{
-        width: 420px;
-        font-size: 30px;
+        min-width: 350px;
+        width: auto;
+        font-size: 25px;
     }
 
     .left p {
-        width: 420px;
+        width: 350px;
         font-size: 18px;
     }
 
@@ -545,7 +560,8 @@ h2 {
 
     .item-card {
         width: 40vh;
-        height: 50vh;
+        height: auto;
+        padding-bottom: 15px;
     }
 
     .pop_up {

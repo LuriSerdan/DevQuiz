@@ -172,20 +172,27 @@ button.quiz-option {
 }
 
 @media (max-width: 700px) {
+
+    .quiz-title h1 {
+        width: auto;
+        font-size: 40px;
+        display: none;
+    }
+
     .quiz-container {
-        min-height: 71vh;
+        min-height: 72vh;
         height: auto;
     }
 
     .question-summary {
         height: auto;  
-        margin-top: 20px;      
+        margin-top: 10px;      
 
         font-size: 20px;
     }
 
     .quiz-options {
-        margin-top: 60px;
+        margin-top: 40px;
 
         font-size: 17px;
     }
