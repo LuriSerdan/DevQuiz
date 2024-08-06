@@ -13,7 +13,7 @@
 
 .quiz-header {
     text-align: center;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     margin-top: 10px; 
 }
 
@@ -173,11 +173,12 @@ button.quiz-option {
 
 @media (max-width: 700px) {
     .quiz-container {
-        height: 80vh;
+        min-height: 71vh;
+        height: auto;
     }
 
     .question-summary {
-        min-height: 130px;  
+        height: auto;  
         margin-top: 20px;      
 
         font-size: 20px;
@@ -202,4 +203,5 @@ button.quiz-option {
         height: 100%;
         background-image: linear-gradient(10deg, #90E1C0 -180%, #84CEB2 -100%, #0F172A 40%);
     }
+
 }
