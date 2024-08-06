@@ -46,9 +46,10 @@ document.querySelectorAll('.btn-card').forEach(button => {
         console.log(`Linguagem definida para os botões de dificuldade: ${language}`); // Depure o valor
     });
 });
-document.getElementById('registrationForm').addEventListener('submit', function(event) {
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
+    // Obtém os valores que o usuário inseriu
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
