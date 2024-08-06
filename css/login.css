@@ -282,4 +282,18 @@ h2 {
         font-weight: 900;
         text-align: center;
     }
+
+    @media (max-width: 390px) {
+        .login-container {
+            height: 550px;
+            width: 90%;
+            background-color: #0F172A;
+            border: #08FFB3 solid 2px;
+            border-radius: 10px;
+            display: block;
+            text-align: center;
+            padding: 2%;
+            /* margin-top: 100px; */
+        }
+    }
 }
