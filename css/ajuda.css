@@ -17,7 +17,7 @@ body{
 header{
     top: 0;
     display: flex;
-    /* gap: 90%; */
+    gap: 90%;
     padding: 20px 8%;
 }
 
@@ -145,6 +145,8 @@ button {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        gap: 0;
     }
     
     header a {
