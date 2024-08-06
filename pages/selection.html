@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/media_selection.css">
+    <title>Seleção de Quiz</title>
+    <link rel="icon" type="image/x-icon" href="../img/DQ.ico">
+</head>
+<body>
+    <header>
+        <a href="../index.html">DevQuiz</a>
+        <ul class="menu">
+            <li><a href="../pages/Ajuda.html">Ajuda</a></li>
+
+            <li><a href="../pages/login.html">Login</a></li>
+        </ul>
+    </header>
+
+    <div class="fundo-embaçado"></div>
+
+    <div class="container-card">
+        <div class="card">
+            <div class="item-card">
+                <!--Seleção do Quiz de HTML5-->
+                <h1>HTML5</h1>
+                <img src="../img/html.png" alt="">
+                <p>Responda nosso formulário <span>HTML</span> e mergulhe nas bases da web.</p>
+                <button class="btn-card btn-html" data-language="html" onclick="openPopup()">INICIAR</button>
+            </div>
+            <div class="item-card">
+                <!--Seleção do Quiz de CSS-->
+                <h1>CSS</h1>
+                <img src="../img/css.png" alt="">
+                <p>Responda nosso formulário <span>CSS</span> e mergulhe nas bases da web.</p>
+                <button class="btn-card btn-css" data-language="css" onclick="openPopup()">INICIAR</button>
+            </div>
+            <div class="item-card">
+                <!--Seleção do Quiz de JavaScript-->
+                <h1>JavaScript</h1>
+                <img src="../img/js.png" alt="">
+                <p>Responda nosso formulário <span>JavaScript</span> e mergulhe nas bases da web.</p>
+                <button class="btn-card btn-js" data-language="js" onclick="openPopup()">INICIAR</button>
+            </div>
+        </div>
+    </div>
+    <!--Estrutura do Popup-->
+    <div class="pop_up" id="popup">
+        <div class="pop-up_dificuldade">
+            <div class="close_popup_container">
+                <button class="close_popup_icon" onclick="closePopup()">&times;</button>
+            </div>
+            <h1>Selecione a dificuldade</h1>
+            <div class="difficulty">
+                <div class="btn-difficulty">
+                    <button class="btn-card-dificuldade">Fácil</button>
+                </div>
+                <div class="btn-difficulty">
+                    <button class="btn-card-dificuldade">Médio</button>
+                </div>
+                <div class="btn-difficulty">
+                    <button class="btn-card-dificuldade">Difícil</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

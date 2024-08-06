@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier Prime", monospace;
+}
+
+body{
+    min-height: 100vh;
+    
+    background-image: linear-gradient( 10deg, #90E1C0 -180%, #84CEB2 -100%, #0F172A 40%);
+    margin: 0;
+}
+
+header{
+    top: 0;
+    display: flex;
+    /* gap: 90%; */
+    padding: 20px 8%;
+}
+
+header span {
+    color: #FFFF;
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li a{
+    font-size: 20px;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+
+h1 {
+    color: #FFFF;
+
+    line-height: 54px;
+    font-weight: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 68px;
+}
+
+.left_side {
+    height: 500px;
+    width: 554px;
+    margin-right: 150px;
+    margin-left: 138px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 554px;
+    position: fixed;
+}
+
+.left_side a {
+    text-decoration: none;
+    color: #0F172A; 
+
+    height: 75px;
+}
+
+.left_side button:hover {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.left_side img {
+    margin-bottom: 60px;
+}
+
+button {
+    height: 75px;
+    width: 450px;
+
+    border: none;
+    background-color: #08FFB3;
+    border-radius: 7px;
+    color: #0F172A;
+
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Courier Prime", monospace;
+
+    margin-bottom: 5000px;
+    cursor: pointer;
+}
+
+.card {
+    width: 650px;
+    height: 182px;
+
+    border: 2px solid #5B3FD6;
+    border-radius: 7px;
+
+    font-family: "Courier Prime", monospace;
+
+    margin-bottom: 60px;
+    padding: 15px;
+}
+
+.card h2 {
+    font-size: 25px;
+    color: #FFFF;
+
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #CCDDCC;
+}
+
+@media (max-width: 700px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: #FFFF;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .menu{
+        list-style: none;
+    }
+    
+    .menu ul li a{
+        font-size: 20px;
+        color: #CDCDCD;
+        text-decoration: none;
+    }
+
+    h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 28px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main button {
+        width: 300px;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    main .left_side {
+        margin-bottom: 0px;
+    }
+
+    main .left_side .fixed {
+        position: relative;
+    }
+
+    main .left_side .fixed img {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    main .right_side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+    }
+
+    main .right_side .card {
+        width: 90%;
+        height: auto;
+    }
+}

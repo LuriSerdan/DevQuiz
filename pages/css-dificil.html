@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../quizzes/quizzes.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Quiz CSS - Difícil</title>
+    <link rel="icon" type="image/x-icon" href="../img/DQ.ico">
+</head>
+<body>
+    <header>
+        <a href="../index.html">DevQuiz</a>
+        <ul class="menu">
+            <li><a href="../pages/Ajuda.html">Ajuda</a></li>
+            <li>
+                <a href="../pages/selection.html">
+                    <img src="../img/voltar.svg" alt="Voltar">
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="quiz-title">
+        <h1>Quiz CSS - Nível Difícil</h1> 
+    </div>
+    
+    <main class="quiz-container">
+        <div class="quiz-content" id="quiz-content">
+            <!-- Perguntas serão carregadas aqui pelo JavaScript -->
+        </div>
+    </main>
+        
+    <div class="next-question">
+        <button id="next-question-button" onclick="nextQuestion()">
+            Proxima pergunta
+        </button>
+    </div>
+
+    <script src="../quizzes/css-dificil/css-dificil.js"></script>
+</body>
+</html>
