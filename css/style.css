@@ -69,7 +69,6 @@
 }
 
 .quiz-option:hover {
-    transition: 300ms
     background-color: #5B3FD6;
 }
 
@@ -192,7 +191,6 @@ header span {
 }
 
 .btn-mais:hover {
-    transition: 300ms
     color: #0F172A;
 
 }
@@ -278,12 +276,10 @@ header span {
 }
 
 .btn-card:hover {
-    transition: 300ms
     font-weight: bold;
 }
 
 button:hover {
-    transition: 300ms
     background-color: #5B3FD6;
     cursor: pointer;
 }
@@ -297,11 +293,9 @@ button:hover {
     border-radius: 8px;
     color: #FFFF;
     font-size: 24px;
-    transition: 300ms
 }
 
 button:hover {
-    transition: 300ms
     background-color: #5B3FD6;
 }
 
